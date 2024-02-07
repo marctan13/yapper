@@ -1,0 +1,76 @@
+body {
+  overflow: hidden;
+  background: url("./signin-background.jpg");
+  background: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  float: right;
+  top: 12em;
+  right: 7em;
+  background: #919eaa;
+  height: 30em;
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 2.5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 4em;
+  height: 3.5em;
+}
+
+.title-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  height: 30px;
+  width: 110px;
+  border-radius: 40px;
+  background: #dde0dc;
+  border: 2px solid #fff4f4;
+  color: #2d2d2d;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px;
+  height: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
