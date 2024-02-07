@@ -1,4 +1,4 @@
-/* body {
+body {
     background-color: #282c35;
   }
   
@@ -48,10 +48,10 @@
     background: #41424A;
   }
   
-  main::-webkit-scrollbar-track {
+  /* main::-webkit-scrollbar-track {
     background: #1e1e24;
     border-radius: 10px;
-  }
+  } */
   
   main::-webkit-scrollbar-thumb {
     background: #1e1e24;
@@ -87,7 +87,7 @@
   }
   
   button {
-    background-color: #282c34; 
+    background-color: #282c34; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -158,4 +158,4 @@
     height: 40px;
     border-radius: 50%;
     margin: 2px 5px;
-  } */
+  }

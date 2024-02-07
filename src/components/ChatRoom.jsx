@@ -3,6 +3,7 @@ import { useCollectionData } from "react-firebase-hooks/firestore";
 import { auth, firestore } from '../firebase.js';
 import ChatMessage from './ChatMessage.jsx';
 import firebase from 'firebase/compat/app'; 
+import './ChatRoom.css'
 
 function ChatRoom() {
     const dummy = useRef();
@@ -43,7 +44,7 @@ function ChatRoom() {
   
         <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
   
-        <button type="submit" disabled={!formValue}>🕊️</button>
+        <button type="submit" disabled={!formValue}>Send</button>
   
       </form>
     </>)
